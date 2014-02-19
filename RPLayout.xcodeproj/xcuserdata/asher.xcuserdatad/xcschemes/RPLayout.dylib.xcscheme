@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DE830B918B4C14F006C5A97"
-               BuildableName = "RPLayout"
-               BlueprintName = "RPLayout"
+               BlueprintIdentifier = "4DE8306F18B4C11A006C5A97"
+               BuildableName = "RPLayout.dylib"
+               BlueprintName = "RPLayout.dylib"
                ReferencedContainer = "container:RPLayout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

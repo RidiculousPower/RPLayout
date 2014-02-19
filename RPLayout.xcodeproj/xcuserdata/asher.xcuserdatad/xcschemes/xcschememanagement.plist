@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>RPLayout.a.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>RPLayout.dylib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>RPLayout.framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>RPLayout.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +33,31 @@
 			<true/>
 		</dict>
 		<key>4DE8304F18B4C099006C5A97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DE8306F18B4C11A006C5A97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DE8307F18B4C11A006C5A97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DE8309818B4C135006C5A97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DE830A418B4C135006C5A97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DE830B918B4C14F006C5A97</key>
 		<dict>
 			<key>primary</key>
 			<true/>

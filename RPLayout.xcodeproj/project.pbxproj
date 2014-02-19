@@ -6,43 +6,212 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4DE830B918B4C14F006C5A97 /* RPLayout */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4DE830BA18B4C14F006C5A97 /* Build configuration list for PBXAggregateTarget "RPLayout" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4DE830BE18B4C15D006C5A97 /* PBXTargetDependency */,
+				4DE830C018B4C15F006C5A97 /* PBXTargetDependency */,
+				4DE830C218B4C160006C5A97 /* PBXTargetDependency */,
+			);
+			name = RPLayout;
+			productName = RPLayout;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		4DE8303D18B4C099006C5A97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8303C18B4C099006C5A97 /* Cocoa.framework */; };
-		4DE8304718B4C099006C5A97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8304518B4C099006C5A97 /* InfoPlist.strings */; };
-		4DE8304B18B4C099006C5A97 /* RPLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8304A18B4C099006C5A97 /* RPLayout.m */; };
-		4DE8305218B4C099006C5A97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8305118B4C099006C5A97 /* XCTest.framework */; };
-		4DE8305318B4C099006C5A97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8303C18B4C099006C5A97 /* Cocoa.framework */; };
-		4DE8305618B4C099006C5A97 /* RPLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8303918B4C099006C5A97 /* RPLayout.framework */; };
-		4DE8305C18B4C099006C5A97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8305A18B4C099006C5A97 /* InfoPlist.strings */; };
-		4DE8305E18B4C099006C5A97 /* RPLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8305D18B4C099006C5A97 /* RPLayoutTests.m */; };
+		4DE8307118B4C11A006C5A97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8303C18B4C099006C5A97 /* Cocoa.framework */; };
+		4DE8309A18B4C135006C5A97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8303C18B4C099006C5A97 /* Cocoa.framework */; };
+		4DE830FD18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830D818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m */; };
+		4DE830FE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830D818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m */; };
+		4DE830FF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830D818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m */; };
+		4DE8310018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830D918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m */; };
+		4DE8310118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830D918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m */; };
+		4DE8310218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830D918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m */; };
+		4DE8310318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DA18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m */; };
+		4DE8310418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DA18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m */; };
+		4DE8310518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DA18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m */; };
+		4DE8310618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DB18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m */; };
+		4DE8310718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DB18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m */; };
+		4DE8310818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DB18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m */; };
+		4DE8310918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DC18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m */; };
+		4DE8310A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DC18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m */; };
+		4DE8310B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DC18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m */; };
+		4DE8310C18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DD18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m */; };
+		4DE8310D18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DD18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m */; };
+		4DE8310E18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DD18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m */; };
+		4DE8310F18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m */; };
+		4DE8311018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m */; };
+		4DE8311118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m */; };
+		4DE8311218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m */; };
+		4DE8311318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m */; };
+		4DE8311418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830DF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m */; };
+		4DE8311518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m */; };
+		4DE8311618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m */; };
+		4DE8311718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m */; };
+		4DE8311818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m */; };
+		4DE8311918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m */; };
+		4DE8311A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m */; };
+		4DE8311B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m */; };
+		4DE8311C18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m */; };
+		4DE8311D18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m */; };
+		4DE8311E18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m */; };
+		4DE8311F18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m */; };
+		4DE8312018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m */; };
+		4DE8312118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m */; };
+		4DE8312218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m */; };
+		4DE8312318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m */; };
+		4DE8312418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m */; };
+		4DE8312518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m */; };
+		4DE8312618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m */; };
+		4DE8312718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m */; };
+		4DE8312818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m */; };
+		4DE8312918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m */; };
+		4DE8312A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m */; };
+		4DE8312B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m */; };
+		4DE8312C18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m */; };
+		4DE8312D18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E818B4C261006C5A97 /* RPLayoutController+Layout.m */; };
+		4DE8312E18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E818B4C261006C5A97 /* RPLayoutController+Layout.m */; };
+		4DE8312F18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E818B4C261006C5A97 /* RPLayoutController+Layout.m */; };
+		4DE8313018B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E918B4C261006C5A97 /* RPLayoutController+LayoutBasis.m */; };
+		4DE8313118B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E918B4C261006C5A97 /* RPLayoutController+LayoutBasis.m */; };
+		4DE8313218B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830E918B4C261006C5A97 /* RPLayoutController+LayoutBasis.m */; };
+		4DE8313318B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EA18B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m */; };
+		4DE8313418B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EA18B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m */; };
+		4DE8313518B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EA18B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m */; };
+		4DE8313618B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EB18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m */; };
+		4DE8313718B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EB18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m */; };
+		4DE8313818B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EB18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m */; };
+		4DE8313918B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EC18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m */; };
+		4DE8313A18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EC18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m */; };
+		4DE8313B18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EC18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m */; };
+		4DE8313C18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830ED18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m */; };
+		4DE8313D18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830ED18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m */; };
+		4DE8313E18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830ED18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m */; };
+		4DE8313F18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EE18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m */; };
+		4DE8314018B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EE18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m */; };
+		4DE8314118B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EE18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m */; };
+		4DE8314218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EF18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m */; };
+		4DE8314318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EF18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m */; };
+		4DE8314418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830EF18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m */; };
+		4DE8314518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m */; };
+		4DE8314618B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m */; };
+		4DE8314718B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m */; };
+		4DE8314818B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m */; };
+		4DE8314918B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m */; };
+		4DE8314A18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m */; };
+		4DE8314B18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m */; };
+		4DE8314C18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m */; };
+		4DE8314D18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m */; };
+		4DE8314E18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m */; };
+		4DE8314F18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m */; };
+		4DE8315018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m */; };
+		4DE8315118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m */; };
+		4DE8315218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m */; };
+		4DE8315318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m */; };
+		4DE8315418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m */; };
+		4DE8315518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m */; };
+		4DE8315618B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m */; };
+		4DE8315718B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F618B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m */; };
+		4DE8315818B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F618B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m */; };
+		4DE8315918B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F618B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m */; };
+		4DE8315A18B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F718B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m */; };
+		4DE8315B18B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F718B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m */; };
+		4DE8315C18B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F718B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m */; };
+		4DE8315D18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F818B4C261006C5A97 /* RPLayoutConstraint.m */; };
+		4DE8315E18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F818B4C261006C5A97 /* RPLayoutConstraint.m */; };
+		4DE8315F18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F818B4C261006C5A97 /* RPLayoutConstraint.m */; };
+		4DE8316018B4C261006C5A97 /* RPLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F918B4C261006C5A97 /* RPLayoutController.m */; };
+		4DE8316118B4C261006C5A97 /* RPLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F918B4C261006C5A97 /* RPLayoutController.m */; };
+		4DE8316218B4C261006C5A97 /* RPLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE830F918B4C261006C5A97 /* RPLayoutController.m */; };
+		4DE8316918B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316518B4C48D006C5A97 /* RPLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8316A18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316518B4C48D006C5A97 /* RPLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8316B18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316518B4C48D006C5A97 /* RPLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8316C18B4C48D006C5A97 /* RPLayoutController in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8316618B4C48D006C5A97 /* RPLayoutController */; };
+		4DE8316D18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8316E18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8316F18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8317018B4C48D006C5A97 /* RPLayoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316818B4C48D006C5A97 /* RPLayoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8317118B4C48D006C5A97 /* RPLayoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316818B4C48D006C5A97 /* RPLayoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8317218B4C48D006C5A97 /* RPLayoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316818B4C48D006C5A97 /* RPLayoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8317318B4C4A8006C5A97 /* RPLayoutController in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316618B4C48D006C5A97 /* RPLayoutController */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8317418B4C4B1006C5A97 /* RPLayoutController in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316618B4C48D006C5A97 /* RPLayoutController */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8317518B4C4B9006C5A97 /* RPLayoutController in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316618B4C48D006C5A97 /* RPLayoutController */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DE8305418B4C099006C5A97 /* PBXContainerItemProxy */ = {
+		4DE830BD18B4C15D006C5A97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4DE8303018B4C099006C5A97 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4DE8303818B4C099006C5A97;
-			remoteInfo = RPLayout;
+			remoteInfo = RPLayout.framework;
+		};
+		4DE830BF18B4C15F006C5A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE8303018B4C099006C5A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE8306F18B4C11A006C5A97;
+			remoteInfo = RPLayout.dylib;
+		};
+		4DE830C118B4C160006C5A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE8303018B4C099006C5A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE8309818B4C135006C5A97;
+			remoteInfo = RPLayout.a;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4DE8303918B4C099006C5A97 /* RPLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE8303C18B4C099006C5A97 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		4DE8303F18B4C099006C5A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4DE8304018B4C099006C5A97 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		4DE8304118B4C099006C5A97 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		4DE8304418B4C099006C5A97 /* RPLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPLayout-Info.plist"; sourceTree = "<group>"; };
-		4DE8304618B4C099006C5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4DE8304818B4C099006C5A97 /* RPLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPLayout-Prefix.pch"; sourceTree = "<group>"; };
-		4DE8304918B4C099006C5A97 /* RPLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPLayout.h; sourceTree = "<group>"; };
-		4DE8304A18B4C099006C5A97 /* RPLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPLayout.m; sourceTree = "<group>"; };
-		4DE8305018B4C099006C5A97 /* RPLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE8305118B4C099006C5A97 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4DE8305918B4C099006C5A97 /* RPLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPLayoutTests-Info.plist"; sourceTree = "<group>"; };
-		4DE8305B18B4C099006C5A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4DE8305D18B4C099006C5A97 /* RPLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPLayoutTests.m; sourceTree = "<group>"; };
+		4DE8307018B4C11A006C5A97 /* RPLayout.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = RPLayout.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE8309918B4C135006C5A97 /* libRPLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRPLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE8309D18B4C135006C5A97 /* RPLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPLayout-Prefix.pch"; sourceTree = "<group>"; };
+		4DE830D818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayout.m"; sourceTree = "<group>"; };
+		4DE830D918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutBasis.m"; sourceTree = "<group>"; };
+		4DE830DA18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutBasisConstant.m"; sourceTree = "<group>"; };
+		4DE830DB18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m"; sourceTree = "<group>"; };
+		4DE830DC18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830DD18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutConstant.m"; sourceTree = "<group>"; };
+		4DE830DE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifference.m"; sourceTree = "<group>"; };
+		4DE830DF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m"; sourceTree = "<group>"; };
+		4DE830E018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m"; sourceTree = "<group>"; };
+		4DE830E118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m"; sourceTree = "<group>"; };
+		4DE830E218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830E318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m"; sourceTree = "<group>"; };
+		4DE830E418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m"; sourceTree = "<group>"; };
+		4DE830E518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830E618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutMultiplier.m"; sourceTree = "<group>"; };
+		4DE830E718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830E818B4C261006C5A97 /* RPLayoutController+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+Layout.m"; sourceTree = "<group>"; };
+		4DE830E918B4C261006C5A97 /* RPLayoutController+LayoutBasis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutBasis.m"; sourceTree = "<group>"; };
+		4DE830EA18B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutBasisConstant.m"; sourceTree = "<group>"; };
+		4DE830EB18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutBasisMultiplier.m"; sourceTree = "<group>"; };
+		4DE830EC18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutBasisMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830ED18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutConstant.m"; sourceTree = "<group>"; };
+		4DE830EE18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifference.m"; sourceTree = "<group>"; };
+		4DE830EF18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifferenceBasis.m"; sourceTree = "<group>"; };
+		4DE830F018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifferenceBasisConstant.m"; sourceTree = "<group>"; };
+		4DE830F118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifferenceBasisMultiplier.m"; sourceTree = "<group>"; };
+		4DE830F218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830F318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifferenceConstant.m"; sourceTree = "<group>"; };
+		4DE830F418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifferenceMultiplier.m"; sourceTree = "<group>"; };
+		4DE830F518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutDifferenceMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830F618B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutMultiplier.m"; sourceTree = "<group>"; };
+		4DE830F718B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutController+LayoutMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE830F818B4C261006C5A97 /* RPLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLayoutConstraint.m; sourceTree = "<group>"; };
+		4DE830F918B4C261006C5A97 /* RPLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLayoutController.m; sourceTree = "<group>"; };
+		4DE8316418B4C3A9006C5A97 /* RPLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPLayout-Info.plist"; sourceTree = "<group>"; };
+		4DE8316518B4C48D006C5A97 /* RPLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLayoutConstraint.h; path = include/RPLayout/RPLayoutConstraint.h; sourceTree = "<group>"; };
+		4DE8316618B4C48D006C5A97 /* RPLayoutController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RPLayoutController; path = include/RPLayout/RPLayoutController; sourceTree = "<group>"; };
+		4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLayoutController_Initializers.h; path = include/RPLayout/RPLayoutController_Initializers.h; sourceTree = "<group>"; };
+		4DE8316818B4C48D006C5A97 /* RPLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLayoutController.h; path = include/RPLayout/RPLayoutController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +223,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DE8304D18B4C099006C5A97 /* Frameworks */ = {
+		4DE8306D18B4C11A006C5A97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE8305618B4C099006C5A97 /* RPLayout.framework in Frameworks */,
-				4DE8305318B4C099006C5A97 /* Cocoa.framework in Frameworks */,
-				4DE8305218B4C099006C5A97 /* XCTest.framework in Frameworks */,
+				4DE8307118B4C11A006C5A97 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE8309618B4C135006C5A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE8309A18B4C135006C5A97 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +245,9 @@
 		4DE8302F18B4C099006C5A97 = {
 			isa = PBXGroup;
 			children = (
-				4DE8304218B4C099006C5A97 /* RPLayout */,
-				4DE8305718B4C099006C5A97 /* RPLayoutTests */,
-				4DE8303B18B4C099006C5A97 /* Frameworks */,
+				4DE830C318B4C1F1006C5A97 /* include */,
+				4DE830D518B4C261006C5A97 /* source */,
+				4DE8309C18B4C135006C5A97 /* resources */,
 				4DE8303A18B4C099006C5A97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +256,8 @@
 			isa = PBXGroup;
 			children = (
 				4DE8303918B4C099006C5A97 /* RPLayout.framework */,
-				4DE8305018B4C099006C5A97 /* RPLayoutTests.xctest */,
+				4DE8307018B4C11A006C5A97 /* RPLayout.dylib */,
+				4DE8309918B4C135006C5A97 /* libRPLayout.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,58 +266,80 @@
 			isa = PBXGroup;
 			children = (
 				4DE8303C18B4C099006C5A97 /* Cocoa.framework */,
-				4DE8305118B4C099006C5A97 /* XCTest.framework */,
-				4DE8303E18B4C099006C5A97 /* Other Frameworks */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		4DE8303E18B4C099006C5A97 /* Other Frameworks */ = {
+		4DE8309C18B4C135006C5A97 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				4DE8303F18B4C099006C5A97 /* Foundation.framework */,
-				4DE8304018B4C099006C5A97 /* CoreData.framework */,
-				4DE8304118B4C099006C5A97 /* AppKit.framework */,
+				4DE8316418B4C3A9006C5A97 /* RPLayout-Info.plist */,
+				4DE8309D18B4C135006C5A97 /* RPLayout-Prefix.pch */,
+				4DE8303B18B4C099006C5A97 /* Frameworks */,
 			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		4DE8304218B4C099006C5A97 /* RPLayout */ = {
-			isa = PBXGroup;
-			children = (
-				4DE8304918B4C099006C5A97 /* RPLayout.h */,
-				4DE8304A18B4C099006C5A97 /* RPLayout.m */,
-				4DE8304318B4C099006C5A97 /* Supporting Files */,
-			);
+			name = resources;
 			path = RPLayout;
 			sourceTree = "<group>";
 		};
-		4DE8304318B4C099006C5A97 /* Supporting Files */ = {
+		4DE830C318B4C1F1006C5A97 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				4DE8304418B4C099006C5A97 /* RPLayout-Info.plist */,
-				4DE8304518B4C099006C5A97 /* InfoPlist.strings */,
-				4DE8304818B4C099006C5A97 /* RPLayout-Prefix.pch */,
+				4DE8316518B4C48D006C5A97 /* RPLayoutConstraint.h */,
+				4DE8316818B4C48D006C5A97 /* RPLayoutController.h */,
+				4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */,
+				4DE8316618B4C48D006C5A97 /* RPLayoutController */,
 			);
-			name = "Supporting Files";
+			name = include;
 			sourceTree = "<group>";
 		};
-		4DE8305718B4C099006C5A97 /* RPLayoutTests */ = {
+		4DE830D518B4C261006C5A97 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				4DE8305D18B4C099006C5A97 /* RPLayoutTests.m */,
-				4DE8305818B4C099006C5A97 /* Supporting Files */,
+				4DE830D618B4C261006C5A97 /* AlanLayoutConstraintController */,
+				4DE830F818B4C261006C5A97 /* RPLayoutConstraint.m */,
+				4DE830F918B4C261006C5A97 /* RPLayoutController.m */,
 			);
-			path = RPLayoutTests;
+			path = source;
 			sourceTree = "<group>";
 		};
-		4DE8305818B4C099006C5A97 /* Supporting Files */ = {
+		4DE830D618B4C261006C5A97 /* AlanLayoutConstraintController */ = {
 			isa = PBXGroup;
 			children = (
-				4DE8305918B4C099006C5A97 /* RPLayoutTests-Info.plist */,
-				4DE8305A18B4C099006C5A97 /* InfoPlist.strings */,
+				4DE830D818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m */,
+				4DE830D918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m */,
+				4DE830DA18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m */,
+				4DE830DB18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m */,
+				4DE830DC18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m */,
+				4DE830DD18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m */,
+				4DE830DE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m */,
+				4DE830DF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m */,
+				4DE830E018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m */,
+				4DE830E118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m */,
+				4DE830E218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m */,
+				4DE830E318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m */,
+				4DE830E418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m */,
+				4DE830E518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m */,
+				4DE830E618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m */,
+				4DE830E718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m */,
+				4DE830E818B4C261006C5A97 /* RPLayoutController+Layout.m */,
+				4DE830E918B4C261006C5A97 /* RPLayoutController+LayoutBasis.m */,
+				4DE830EA18B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m */,
+				4DE830EB18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m */,
+				4DE830EC18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m */,
+				4DE830ED18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m */,
+				4DE830EE18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m */,
+				4DE830EF18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m */,
+				4DE830F018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m */,
+				4DE830F118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m */,
+				4DE830F218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m */,
+				4DE830F318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m */,
+				4DE830F418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m */,
+				4DE830F518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m */,
+				4DE830F618B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m */,
+				4DE830F718B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m */,
 			);
-			name = "Supporting Files";
+			path = AlanLayoutConstraintController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,15 +349,41 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE8316918B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
+				4DE8317018B4C48D006C5A97 /* RPLayoutController.h in Headers */,
+				4DE8316D18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
+				4DE8317318B4C4A8006C5A97 /* RPLayoutController in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE8306E18B4C11A006C5A97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE8316A18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
+				4DE8317118B4C48D006C5A97 /* RPLayoutController.h in Headers */,
+				4DE8316E18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
+				4DE8317418B4C4B1006C5A97 /* RPLayoutController in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE8309718B4C135006C5A97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE8316B18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
+				4DE8317218B4C48D006C5A97 /* RPLayoutController.h in Headers */,
+				4DE8316F18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
+				4DE8317518B4C4B9006C5A97 /* RPLayoutController in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4DE8303818B4C099006C5A97 /* RPLayout */ = {
+		4DE8303818B4C099006C5A97 /* RPLayout.framework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DE8306118B4C099006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout" */;
+			buildConfigurationList = 4DE8306118B4C099006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout.framework" */;
 			buildPhases = (
 				4DE8303418B4C099006C5A97 /* Sources */,
 				4DE8303518B4C099006C5A97 /* Frameworks */,
@@ -170,28 +394,44 @@
 			);
 			dependencies = (
 			);
-			name = RPLayout;
+			name = RPLayout.framework;
 			productName = RPLayout;
 			productReference = 4DE8303918B4C099006C5A97 /* RPLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4DE8304F18B4C099006C5A97 /* RPLayoutTests */ = {
+		4DE8306F18B4C11A006C5A97 /* RPLayout.dylib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DE8306418B4C099006C5A97 /* Build configuration list for PBXNativeTarget "RPLayoutTests" */;
+			buildConfigurationList = 4DE8308F18B4C11A006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout.dylib" */;
 			buildPhases = (
-				4DE8304C18B4C099006C5A97 /* Sources */,
-				4DE8304D18B4C099006C5A97 /* Frameworks */,
-				4DE8304E18B4C099006C5A97 /* Resources */,
+				4DE8306C18B4C11A006C5A97 /* Sources */,
+				4DE8306D18B4C11A006C5A97 /* Frameworks */,
+				4DE8306E18B4C11A006C5A97 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4DE8305518B4C099006C5A97 /* PBXTargetDependency */,
 			);
-			name = RPLayoutTests;
-			productName = RPLayoutTests;
-			productReference = 4DE8305018B4C099006C5A97 /* RPLayoutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = RPLayout.dylib;
+			productName = RPLayout;
+			productReference = 4DE8307018B4C11A006C5A97 /* RPLayout.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		4DE8309818B4C135006C5A97 /* RPLayout.a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE830B318B4C135006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout.a" */;
+			buildPhases = (
+				4DE8309518B4C135006C5A97 /* Sources */,
+				4DE8309618B4C135006C5A97 /* Frameworks */,
+				4DE8309718B4C135006C5A97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPLayout.a;
+			productName = RPLayout;
+			productReference = 4DE8309918B4C135006C5A97 /* libRPLayout.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,11 +441,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ridiculous Power";
-				TargetAttributes = {
-					4DE8304F18B4C099006C5A97 = {
-						TestTargetID = 4DE8303818B4C099006C5A97;
-					};
-				};
 			};
 			buildConfigurationList = 4DE8303318B4C099006C5A97 /* Build configuration list for PBXProject "RPLayout" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,8 +454,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DE8303818B4C099006C5A97 /* RPLayout */,
-				4DE8304F18B4C099006C5A97 /* RPLayoutTests */,
+				4DE8303818B4C099006C5A97 /* RPLayout.framework */,
+				4DE8306F18B4C11A006C5A97 /* RPLayout.dylib */,
+				4DE8309818B4C135006C5A97 /* RPLayout.a */,
+				4DE830B918B4C14F006C5A97 /* RPLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -230,15 +467,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE8304718B4C099006C5A97 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DE8304E18B4C099006C5A97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DE8305C18B4C099006C5A97 /* InfoPlist.strings in Resources */,
+				4DE8316C18B4C48D006C5A97 /* RPLayoutController in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,46 +478,144 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE8304B18B4C099006C5A97 /* RPLayout.m in Sources */,
+				4DE8315D18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */,
+				4DE8316018B4C261006C5A97 /* RPLayoutController.m in Sources */,
+				4DE8312D18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */,
+				4DE8315718B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */,
+				4DE8313C18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */,
+				4DE8315A18B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m in Sources */,
+				4DE8313F18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */,
+				4DE8315118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */,
+				4DE8314E18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */,
+				4DE8315418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */,
+				4DE8314218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */,
+				4DE8314818B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE8314518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */,
+				4DE8314B18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8313018B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */,
+				4DE8313618B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */,
+				4DE8313318B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */,
+				4DE8313918B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m in Sources */,
+				4DE830FD18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */,
+				4DE8312718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */,
+				4DE8310C18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m in Sources */,
+				4DE8312A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */,
+				4DE8310F18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */,
+				4DE8312118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */,
+				4DE8311E18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */,
+				4DE8312418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */,
+				4DE8311218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */,
+				4DE8311818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE8311518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */,
+				4DE8311B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8310018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */,
+				4DE8310618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */,
+				4DE8310318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */,
+				4DE8310918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DE8304C18B4C099006C5A97 /* Sources */ = {
+		4DE8306C18B4C11A006C5A97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE8305E18B4C099006C5A97 /* RPLayoutTests.m in Sources */,
+				4DE8314018B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */,
+				4DE8316118B4C261006C5A97 /* RPLayoutController.m in Sources */,
+				4DE8314618B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */,
+				4DE8311318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */,
+				4DE8313718B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */,
+				4DE8312218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */,
+				4DE8311018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */,
+				4DE8310418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */,
+				4DE8313418B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */,
+				4DE8310118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */,
+				4DE8310718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */,
+				4DE8315E18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */,
+				4DE8313D18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */,
+				4DE8311618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */,
+				4DE8312B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */,
+				4DE8315218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */,
+				4DE8312518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */,
+				4DE8311C18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8310D18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m in Sources */,
+				4DE8313A18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m in Sources */,
+				4DE8310A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m in Sources */,
+				4DE8314F18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */,
+				4DE8315818B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */,
+				4DE8314918B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE8311918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE8315518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */,
+				4DE8314318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */,
+				4DE8312E18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */,
+				4DE8314C18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8312818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */,
+				4DE830FE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */,
+				4DE8313118B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */,
+				4DE8311F18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */,
+				4DE8315B18B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE8309518B4C135006C5A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE8314118B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */,
+				4DE8316218B4C261006C5A97 /* RPLayoutController.m in Sources */,
+				4DE8314718B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */,
+				4DE8311418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */,
+				4DE8313818B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */,
+				4DE8312318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */,
+				4DE8311118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */,
+				4DE8310518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */,
+				4DE8313518B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */,
+				4DE8310218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */,
+				4DE8310818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */,
+				4DE8315F18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */,
+				4DE8313E18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */,
+				4DE8311718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */,
+				4DE8312C18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */,
+				4DE8315318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */,
+				4DE8312618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */,
+				4DE8311D18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8310E18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutConstant.m in Sources */,
+				4DE8313B18B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplierConstant.m in Sources */,
+				4DE8310B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplierConstant.m in Sources */,
+				4DE8315018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */,
+				4DE8315918B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */,
+				4DE8314A18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE8311A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE8315618B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */,
+				4DE8314418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */,
+				4DE8312F18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */,
+				4DE8314D18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8312918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */,
+				4DE830FF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */,
+				4DE8313218B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */,
+				4DE8312018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */,
+				4DE8315C18B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DE8305518B4C099006C5A97 /* PBXTargetDependency */ = {
+		4DE830BE18B4C15D006C5A97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4DE8303818B4C099006C5A97 /* RPLayout */;
-			targetProxy = 4DE8305418B4C099006C5A97 /* PBXContainerItemProxy */;
+			target = 4DE8303818B4C099006C5A97 /* RPLayout.framework */;
+			targetProxy = 4DE830BD18B4C15D006C5A97 /* PBXContainerItemProxy */;
+		};
+		4DE830C018B4C15F006C5A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE8306F18B4C11A006C5A97 /* RPLayout.dylib */;
+			targetProxy = 4DE830BF18B4C15F006C5A97 /* PBXContainerItemProxy */;
+		};
+		4DE830C218B4C160006C5A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE8309818B4C135006C5A97 /* RPLayout.a */;
+			targetProxy = 4DE830C118B4C160006C5A97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4DE8304518B4C099006C5A97 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DE8304618B4C099006C5A97 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4DE8305A18B4C099006C5A97 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DE8305B18B4C099006C5A97 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DE8305F18B4C099006C5A97 /* Debug */ = {
@@ -322,6 +649,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/include",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -354,6 +687,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/include",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 			};
@@ -369,7 +708,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPLayout/RPLayout-Prefix.pch";
 				INFOPLIST_FILE = "RPLayout/RPLayout-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RPLayout;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -384,48 +723,70 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPLayout/RPLayout-Prefix.pch";
 				INFOPLIST_FILE = "RPLayout/RPLayout-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RPLayout;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
-		4DE8306518B4C099006C5A97 /* Debug */ = {
+		4DE8309018B4C11A006C5A97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RPLayout.framework/Versions/A/RPLayout";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPLayout/RPLayout-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RPLayoutTests/RPLayoutTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				PRODUCT_NAME = RPLayout;
 			};
 			name = Debug;
 		};
-		4DE8306618B4C099006C5A97 /* Release */ = {
+		4DE8309118B4C11A006C5A97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RPLayout.framework/Versions/A/RPLayout";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPLayout/RPLayout-Prefix.pch";
-				INFOPLIST_FILE = "RPLayoutTests/RPLayoutTests-Info.plist";
+				PRODUCT_NAME = RPLayout;
+			};
+			name = Release;
+		};
+		4DE830B418B4C135006C5A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPLayout/RPLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = RPLayout;
+			};
+			name = Debug;
+		};
+		4DE830B518B4C135006C5A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPLayout/RPLayout-Prefix.pch";
+				PRODUCT_NAME = RPLayout;
+			};
+			name = Release;
+		};
+		4DE830BB18B4C14F006C5A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4DE830BC18B4C14F006C5A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -441,21 +802,41 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DE8306118B4C099006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout" */ = {
+		4DE8306118B4C099006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout.framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DE8306218B4C099006C5A97 /* Debug */,
 				4DE8306318B4C099006C5A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4DE8306418B4C099006C5A97 /* Build configuration list for PBXNativeTarget "RPLayoutTests" */ = {
+		4DE8308F18B4C11A006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout.dylib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DE8306518B4C099006C5A97 /* Debug */,
-				4DE8306618B4C099006C5A97 /* Release */,
+				4DE8309018B4C11A006C5A97 /* Debug */,
+				4DE8309118B4C11A006C5A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE830B318B4C135006C5A97 /* Build configuration list for PBXNativeTarget "RPLayout.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE830B418B4C135006C5A97 /* Debug */,
+				4DE830B518B4C135006C5A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE830BA18B4C14F006C5A97 /* Build configuration list for PBXAggregateTarget "RPLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE830BB18B4C14F006C5A97 /* Debug */,
+				4DE830BC18B4C14F006C5A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
