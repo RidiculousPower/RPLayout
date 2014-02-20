@@ -71,25 +71,31 @@ The project also defines a fourth build target that aggregates the three availab
 2. Import <RPLayout/RPLayoutController.h>, define a property on the object acting as container view for constrained elements, for example named "layout", ensure proper initialization.
 3. Define constraints by calling appropriate factory method on controller instance, for example: 
 
-    [container.layout  constraintOn: contained_view 
-    	              constrainedBy: container
-                     withIdentifier: @"top"
-                             layout: NSLayoutAttributeTop
-                         difference: NSLayoutRelationEqual
-                              basis: NSLayoutAttributeTop
-                         multiplier: 1.0
-                           constant: 0 ]. 
+```
+[container.layout  constraintOn: contained_view 
+	              constrainedBy: container
+                 withIdentifier: @"top"
+                         layout: NSLayoutAttributeTop
+                     difference: NSLayoutRelationEqual
+                          basis: NSLayoutAttributeTop
+                     multiplier: 1.0
+                       constant: 0 ].
+```
 
   which is equivalent to:
 
-    [container.layout constraintOn: contained_view 
-                    withIdentifier: @"top"
-                            layout: NSLayoutAttributeTop ]. 
+```
+[container.layout constraintOn: contained_view 
+                withIdentifier: @"top"
+                        layout: NSLayoutAttributeTop ] 
+```
 
   or:
 
-    [[container.layout constraintOn: contained_view 
-                     withIdentifier: @"top"] pinTop]
+```
+[[container.layout constraintOn: contained_view 
+                 withIdentifier: @"top"] pinTop]
+```
 
 # License #
 
