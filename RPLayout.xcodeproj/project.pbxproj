@@ -193,9 +193,9 @@
 		4DFE289518B604940075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DFE289618B604990075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DFE289718B6049D0075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DFE28BE18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; };
-		4DFE28BF18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; };
-		4DFE28C018B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; };
+		4DFE28BE18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFE28BF18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFE28C018B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -449,8 +449,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE8316918B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
-				4DFE289518B604940075F757 /* RPLayoutConstraint in Headers */,
 				4DFE28BE18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */,
+				4DFE289518B604940075F757 /* RPLayoutConstraint in Headers */,
 				4DE8317018B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316D18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317318B4C4A8006C5A97 /* RPLayoutController in Headers */,
@@ -462,8 +462,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE8316A18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
-				4DFE289618B604990075F757 /* RPLayoutConstraint in Headers */,
 				4DFE28BF18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */,
+				4DFE289618B604990075F757 /* RPLayoutConstraint in Headers */,
 				4DE8317118B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316E18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317418B4C4B1006C5A97 /* RPLayoutController in Headers */,
@@ -475,8 +475,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE8316B18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
-				4DFE289718B6049D0075F757 /* RPLayoutConstraint in Headers */,
 				4DFE28C018B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */,
+				4DFE289718B6049D0075F757 /* RPLayoutConstraint in Headers */,
 				4DE8317218B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316F18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317518B4C4B9006C5A97 /* RPLayoutController in Headers */,
