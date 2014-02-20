@@ -157,10 +157,11 @@
 {
   if ( ! _basisMethod && _basis );
 
-  else [self invokeConstraintMethod: _basisMethod
-                        storeReturn: & _basis
-                    errorTypestring: @"NSLayoutAttribute"];
-
+	else if ( _basisMethod ) [self invokeConstraintMethod: _basisMethod
+										                        storeReturn: & _basis
+										                    errorTypestring: @"NSLayoutAttribute"];
+	else _basis = _layout;
+	
   return _basis;
 }
 

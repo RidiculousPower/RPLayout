@@ -141,6 +141,58 @@
 		4DE8317318B4C4A8006C5A97 /* RPLayoutController in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316618B4C48D006C5A97 /* RPLayoutController */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE8317418B4C4B1006C5A97 /* RPLayoutController in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316618B4C48D006C5A97 /* RPLayoutController */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE8317518B4C4B9006C5A97 /* RPLayoutController in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8316618B4C48D006C5A97 /* RPLayoutController */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE8318918B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317918B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m */; };
+		4DE8318A18B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317918B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m */; };
+		4DE8318B18B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317918B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m */; };
+		4DE8318C18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317A18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m */; };
+		4DE8318D18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317A18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m */; };
+		4DE8318E18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317A18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m */; };
+		4DE8318F18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317B18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m */; };
+		4DE8319018B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317B18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m */; };
+		4DE8319118B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317B18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m */; };
+		4DE8319218B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317C18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m */; };
+		4DE8319318B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317C18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m */; };
+		4DE8319418B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317C18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m */; };
+		4DE8319518B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317D18B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m */; };
+		4DE8319618B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317D18B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m */; };
+		4DE8319718B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317D18B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m */; };
+		4DE8319818B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317E18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m */; };
+		4DE8319918B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317E18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m */; };
+		4DE8319A18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317E18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m */; };
+		4DE8319B18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317F18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m */; };
+		4DE8319C18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317F18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m */; };
+		4DE8319D18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8317F18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m */; };
+		4DE8319E18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318018B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m */; };
+		4DE8319F18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318018B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m */; };
+		4DE831A018B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318018B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m */; };
+		4DE831A118B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318118B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m */; };
+		4DE831A218B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318118B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m */; };
+		4DE831A318B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318118B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m */; };
+		4DE831A418B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318218B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m */; };
+		4DE831A518B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318218B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m */; };
+		4DE831A618B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318218B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m */; };
+		4DE831A718B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318318B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m */; };
+		4DE831A818B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318318B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m */; };
+		4DE831A918B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318318B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m */; };
+		4DE831AA18B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318418B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m */; };
+		4DE831AB18B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318418B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m */; };
+		4DE831AC18B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318418B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m */; };
+		4DE831AD18B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318518B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m */; };
+		4DE831AE18B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318518B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m */; };
+		4DE831AF18B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318518B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m */; };
+		4DE831B018B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318618B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m */; };
+		4DE831B118B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318618B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m */; };
+		4DE831B218B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318618B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m */; };
+		4DE831B318B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m */; };
+		4DE831B418B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m */; };
+		4DE831B518B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m */; };
+		4DE831B618B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m */; };
+		4DE831B718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m */; };
+		4DE831B818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8318818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m */; };
+		4DE831BA18B60479006C5A97 /* RPLayoutConstraint in Resources */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; };
+		4DFE289518B604940075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFE289618B604990075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFE289718B6049D0075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +264,23 @@
 		4DE8316618B4C48D006C5A97 /* RPLayoutController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RPLayoutController; path = include/RPLayout/RPLayoutController; sourceTree = "<group>"; };
 		4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLayoutController_Initializers.h; path = include/RPLayout/RPLayoutController_Initializers.h; sourceTree = "<group>"; };
 		4DE8316818B4C48D006C5A97 /* RPLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLayoutController.h; path = include/RPLayout/RPLayoutController.h; sourceTree = "<group>"; };
+		4DE8317918B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinCenter.m"; sourceTree = "<group>"; };
+		4DE8317A18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinCenterConstant.m"; sourceTree = "<group>"; };
+		4DE8317B18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinCenterMultiplier.m"; sourceTree = "<group>"; };
+		4DE8317C18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinCenterMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE8317D18B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinEdges.m"; sourceTree = "<group>"; };
+		4DE8317E18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinEdgesConstant.m"; sourceTree = "<group>"; };
+		4DE8317F18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinEdgesMultiplier.m"; sourceTree = "<group>"; };
+		4DE8318018B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinEdgesMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE8318118B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinTopLeftRightBottomBaseline.m"; sourceTree = "<group>"; };
+		4DE8318218B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m"; sourceTree = "<group>"; };
+		4DE8318318B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m"; sourceTree = "<group>"; };
+		4DE8318418B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE8318518B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinWidthHeight.m"; sourceTree = "<group>"; };
+		4DE8318618B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinWidthHeightConstant.m"; sourceTree = "<group>"; };
+		4DE8318718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinWidthHeightMultiplier.m"; sourceTree = "<group>"; };
+		4DE8318818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinWidthHeightMultiplierConstant.m"; sourceTree = "<group>"; };
+		4DE831B918B60479006C5A97 /* RPLayoutConstraint */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RPLayoutConstraint; path = include/RPLayout/RPLayoutConstraint; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +357,7 @@
 				4DE8316518B4C48D006C5A97 /* RPLayoutConstraint.h */,
 				4DE8316818B4C48D006C5A97 /* RPLayoutController.h */,
 				4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */,
+				4DE831B918B60479006C5A97 /* RPLayoutConstraint */,
 				4DE8316618B4C48D006C5A97 /* RPLayoutController */,
 			);
 			name = include;
@@ -296,6 +366,7 @@
 		4DE830D518B4C261006C5A97 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				4DE8317818B6046C006C5A97 /* AlanLayoutConstraint */,
 				4DE830D618B4C261006C5A97 /* AlanLayoutConstraintController */,
 				4DE830F818B4C261006C5A97 /* RPLayoutConstraint.m */,
 				4DE830F918B4C261006C5A97 /* RPLayoutController.m */,
@@ -342,6 +413,29 @@
 			path = AlanLayoutConstraintController;
 			sourceTree = "<group>";
 		};
+		4DE8317818B6046C006C5A97 /* AlanLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				4DE8317918B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m */,
+				4DE8317A18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m */,
+				4DE8317B18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m */,
+				4DE8317C18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m */,
+				4DE8317D18B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m */,
+				4DE8317E18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m */,
+				4DE8317F18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m */,
+				4DE8318018B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m */,
+				4DE8318118B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m */,
+				4DE8318218B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m */,
+				4DE8318318B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m */,
+				4DE8318418B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m */,
+				4DE8318518B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m */,
+				4DE8318618B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m */,
+				4DE8318718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m */,
+				4DE8318818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m */,
+			);
+			path = AlanLayoutConstraint;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -350,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE8316918B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
+				4DFE289518B604940075F757 /* RPLayoutConstraint in Headers */,
 				4DE8317018B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316D18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317318B4C4A8006C5A97 /* RPLayoutController in Headers */,
@@ -361,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE8316A18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
+				4DFE289618B604990075F757 /* RPLayoutConstraint in Headers */,
 				4DE8317118B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316E18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317418B4C4B1006C5A97 /* RPLayoutController in Headers */,
@@ -372,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE8316B18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
+				4DFE289718B6049D0075F757 /* RPLayoutConstraint in Headers */,
 				4DE8317218B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316F18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317518B4C4B9006C5A97 /* RPLayoutController in Headers */,
@@ -468,6 +565,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE8316C18B4C48D006C5A97 /* RPLayoutController in Resources */,
+				4DE831BA18B60479006C5A97 /* RPLayoutConstraint in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,20 +576,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE831B018B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m in Sources */,
 				4DE8315D18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */,
 				4DE8316018B4C261006C5A97 /* RPLayoutController.m in Sources */,
 				4DE8312D18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */,
+				4DE8318C18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m in Sources */,
 				4DE8315718B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */,
 				4DE8313C18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */,
+				4DE8319E18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m in Sources */,
 				4DE8315A18B4C261006C5A97 /* RPLayoutController+LayoutMultiplierConstant.m in Sources */,
+				4DE831A118B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m in Sources */,
 				4DE8313F18B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */,
 				4DE8315118B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */,
 				4DE8314E18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */,
 				4DE8315418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */,
 				4DE8314218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */,
+				4DE831A418B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m in Sources */,
 				4DE8314818B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */,
 				4DE8314518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */,
 				4DE8314B18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8318F18B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m in Sources */,
+				4DE831B318B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m in Sources */,
 				4DE8313018B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */,
 				4DE8313618B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */,
 				4DE8313318B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */,
@@ -502,12 +607,21 @@
 				4DE8312A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */,
 				4DE8310F18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */,
 				4DE8312118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */,
+				4DE831B618B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m in Sources */,
+				4DE831AD18B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m in Sources */,
+				4DE8318918B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m in Sources */,
+				4DE8319B18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m in Sources */,
 				4DE8311E18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */,
 				4DE8312418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */,
 				4DE8311218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */,
 				4DE8311818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE8319518B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m in Sources */,
 				4DE8311518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */,
+				4DE8319818B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m in Sources */,
+				4DE8319218B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m in Sources */,
+				4DE831A718B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m in Sources */,
 				4DE8311B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE831AA18B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m in Sources */,
 				4DE8310018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */,
 				4DE8310618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */,
 				4DE8310318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */,
@@ -519,20 +633,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE831B118B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m in Sources */,
 				4DE8314018B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */,
 				4DE8316118B4C261006C5A97 /* RPLayoutController.m in Sources */,
 				4DE8314618B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */,
+				4DE8318D18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m in Sources */,
 				4DE8311318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */,
 				4DE8313718B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */,
+				4DE8319F18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m in Sources */,
 				4DE8312218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */,
+				4DE831A218B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m in Sources */,
 				4DE8311018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */,
 				4DE8310418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */,
 				4DE8313418B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */,
 				4DE8310118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */,
 				4DE8310718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */,
+				4DE831A518B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m in Sources */,
 				4DE8315E18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */,
 				4DE8313D18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */,
 				4DE8311618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */,
+				4DE8319018B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m in Sources */,
+				4DE831B418B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m in Sources */,
 				4DE8312B18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */,
 				4DE8315218B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */,
 				4DE8312518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */,
@@ -543,12 +664,21 @@
 				4DE8314F18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */,
 				4DE8315818B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */,
 				4DE8314918B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE831B718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m in Sources */,
+				4DE831AE18B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m in Sources */,
+				4DE8318A18B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m in Sources */,
+				4DE8319C18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m in Sources */,
 				4DE8311918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */,
 				4DE8315518B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */,
 				4DE8314318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */,
 				4DE8312E18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */,
+				4DE8319618B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m in Sources */,
 				4DE8314C18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8319918B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m in Sources */,
+				4DE8319318B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m in Sources */,
+				4DE831A818B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m in Sources */,
 				4DE8312818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */,
+				4DE831AB18B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m in Sources */,
 				4DE830FE18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */,
 				4DE8313118B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */,
 				4DE8311F18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */,
@@ -560,20 +690,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE831B218B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightConstant.m in Sources */,
 				4DE8314118B4C261006C5A97 /* RPLayoutController+LayoutDifference.m in Sources */,
 				4DE8316218B4C261006C5A97 /* RPLayoutController.m in Sources */,
 				4DE8314718B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisConstant.m in Sources */,
+				4DE8318E18B6046C006C5A97 /* RPLayoutConstraint+PinCenterConstant.m in Sources */,
 				4DE8311418B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasis.m in Sources */,
 				4DE8313818B4C261006C5A97 /* RPLayoutController+LayoutBasisMultiplier.m in Sources */,
+				4DE831A018B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplierConstant.m in Sources */,
 				4DE8312318B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplier.m in Sources */,
+				4DE831A318B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaseline.m in Sources */,
 				4DE8311118B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifference.m in Sources */,
 				4DE8310518B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisConstant.m in Sources */,
 				4DE8313518B4C261006C5A97 /* RPLayoutController+LayoutBasisConstant.m in Sources */,
 				4DE8310218B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasis.m in Sources */,
 				4DE8310818B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutBasisMultiplier.m in Sources */,
+				4DE831A618B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineConstant.m in Sources */,
 				4DE8315F18B4C261006C5A97 /* RPLayoutConstraint.m in Sources */,
 				4DE8313E18B4C261006C5A97 /* RPLayoutController+LayoutConstant.m in Sources */,
 				4DE8311718B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisConstant.m in Sources */,
+				4DE8319118B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplier.m in Sources */,
+				4DE831B518B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m in Sources */,
 				4DE8312C18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplierConstant.m in Sources */,
 				4DE8315318B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplier.m in Sources */,
 				4DE8312618B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceMultiplierConstant.m in Sources */,
@@ -584,12 +721,21 @@
 				4DE8315018B4C261006C5A97 /* RPLayoutController+LayoutDifferenceConstant.m in Sources */,
 				4DE8315918B4C261006C5A97 /* RPLayoutController+LayoutMultiplier.m in Sources */,
 				4DE8314A18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplier.m in Sources */,
+				4DE831B818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m in Sources */,
+				4DE831AF18B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeight.m in Sources */,
+				4DE8318B18B6046C006C5A97 /* RPLayoutConstraint+PinCenter.m in Sources */,
+				4DE8319D18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesMultiplier.m in Sources */,
 				4DE8311A18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceBasisMultiplier.m in Sources */,
 				4DE8315618B4C261006C5A97 /* RPLayoutController+LayoutDifferenceMultiplierConstant.m in Sources */,
 				4DE8314418B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasis.m in Sources */,
 				4DE8312F18B4C261006C5A97 /* RPLayoutController+Layout.m in Sources */,
+				4DE8319718B6046C006C5A97 /* RPLayoutConstraint+PinEdges.m in Sources */,
 				4DE8314D18B4C261006C5A97 /* RPLayoutController+LayoutDifferenceBasisMultiplierConstant.m in Sources */,
+				4DE8319A18B6046C006C5A97 /* RPLayoutConstraint+PinEdgesConstant.m in Sources */,
+				4DE8319418B6046C006C5A97 /* RPLayoutConstraint+PinCenterMultiplierConstant.m in Sources */,
+				4DE831A918B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplier.m in Sources */,
 				4DE8312918B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutMultiplier.m in Sources */,
+				4DE831AC18B6046C006C5A97 /* RPLayoutConstraint+PinTopLeftRightBottomBaselineMultiplierConstant.m in Sources */,
 				4DE830FF18B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayout.m in Sources */,
 				4DE8313218B4C261006C5A97 /* RPLayoutController+LayoutBasis.m in Sources */,
 				4DE8312018B4C261006C5A97 /* RPLayoutController+ConstrainingObjectLayoutDifferenceConstant.m in Sources */,
