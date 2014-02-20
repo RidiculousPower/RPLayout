@@ -1,5 +1,5 @@
 
-#import <RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutController_Initializers.h>
 
 @interface RPLayoutController (PinCenterMultiplier)
 
