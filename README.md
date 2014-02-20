@@ -1,4 +1,4 @@
-# RPLayout: A Object Layout Controller for Cocoa Autolayout #
+# RPLayout: An Object Layout Controller for Cocoa Autolayout #
 
 A controller that provides an object-oriented interface to create and manage layout constraints. 
 
