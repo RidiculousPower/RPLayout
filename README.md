@@ -69,7 +69,8 @@ The project also defines a fourth build target that aggregates the three availab
 
 1. Include the appropriate framework/library in your project. If you're using an Xcode project, the easiest/best way is to include the RPLayout project in yours.
 2. Import &lt;RPLayout/RPLayoutController.h&gt;, define a property on the object acting as container view for constrained elements, for example named "layoutController" ("layout" is not valid, as it is used by autolayout), ensure proper initialization.
-3. Define constraints by calling appropriate factory method on controller instance, for example: 
+3. Make sure that you call self.translatesAutoresizingMaskIntoConstraints = NO on any constrained object.
+4. Define constraints by calling appropriate factory method on controller instance, for example: 
 
 ```
 [container.layoutController  constraintOn: contained_view 
