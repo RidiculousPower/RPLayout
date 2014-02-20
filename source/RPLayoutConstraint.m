@@ -264,19 +264,21 @@
   if ( ! layout_method )
 
     [NSException raise: @"Layout Value or Acquisition Method Required"
-                format: @"Missing specification of %@ value or method to acquire value for %@ constraint %@ (%@ constraint %@) on layout element %@.",
+                format: @"Missing specification of %@ value or method to acquire value for %@ constraint %@ (%@ constraint %@) on layout element %@ in constraint %@.",
                         error_typestring,
                         self.class,
                         self,
                         _constraint.class,
                         _constraint,
-                        layout_object ];
+                        layout_object,
+                        _identifier ];
 
   else if ( ! [layout_object respondsToSelector: layout_method] )
 
     [NSException raise: @"Selector Not Visible"
-                format: @"Layout element %@ does not respond to selector %@ for %@ constraint %@ (%@ constraint %@).",
+                format: @"Layout element %@ for constraint %@ does not respond to selector %@ for %@ constraint %@ (%@ constraint %@).",
                         layout_object,
+                        _identifier,
                         NSStringFromSelector(layout_method),
                         self.class,
                         self,

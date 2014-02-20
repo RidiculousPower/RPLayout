@@ -9,6 +9,11 @@
 
 	- (RPLayoutConstraint*) pinTop
 	{
+		self.layout      = NSLayoutAttributeTop;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeTop;
+		self.multiplier  = 1;
+		self.constant    = 0;
 
 		[self update];
 		
@@ -21,6 +26,11 @@
 
 	- (RPLayoutConstraint*) pinLeft
 	{
+		self.layout      = NSLayoutAttributeLeft;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeLeft;
+		self.multiplier  = 1;
+		self.constant    = 0;
 
 		[self update];
 		
@@ -33,6 +43,11 @@
 
 	- (RPLayoutConstraint*) pinRight
 	{
+		self.layout      = NSLayoutAttributeRight;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeRight;
+		self.multiplier  = 1;
+		self.constant    = 0;
 
 		[self update];
 		
@@ -45,6 +60,11 @@
 
 	- (RPLayoutConstraint*) pinBottom
 	{
+		self.layout      = NSLayoutAttributeBottom;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeBottom;
+		self.multiplier  = 1;
+		self.constant    = 0;
 
 		[self update];
 		
@@ -57,6 +77,11 @@
 
 	- (RPLayoutConstraint*) pinBaseline
 	{
+		self.layout      = NSLayoutAttributeBaseline;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeBaseline;
+		self.multiplier  = 1;
+		self.constant    = 0;
 
 		[self update];
 		

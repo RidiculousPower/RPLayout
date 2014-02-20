@@ -12,7 +12,7 @@
 	  if ( self = [self init] ) {
     
 	    _layoutObject = layout_object;
-	    _constraints  = [[NSDictionary alloc] init];
+	    _constraints  = [[NSMutableDictionary alloc] init];
     
 	  }
   
@@ -28,8 +28,8 @@
 	  RPLayoutConstraint* constraint = [[RPLayoutConstraint alloc] initWithController: self
 	                                                                   withIdentifier: identifier];
 
-	  [_constraints setValue: constraint
-	                  forKey: identifier];
+	  [_constraints setObject: constraint
+	                   forKey: identifier];
 
 	  return constraint;
 	}

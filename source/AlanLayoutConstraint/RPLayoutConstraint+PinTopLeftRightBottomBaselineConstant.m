@@ -9,6 +9,11 @@
 
 	- (RPLayoutConstraint*) pinTopWithConstant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeTop;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeTop;
+		self.multiplier  = 1;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -21,6 +26,11 @@
 
 	- (RPLayoutConstraint*) pinTopWithConstantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeTop;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeTop;
+		self.multiplier      = 1;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -33,6 +43,11 @@
 
 	- (RPLayoutConstraint*) pinLeftWithConstant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeLeft;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeLeft;
+		self.multiplier  = 1;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -45,6 +60,11 @@
 
 	- (RPLayoutConstraint*) pinLeftWithConstantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeLeft;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeLeft;
+		self.multiplier      = 1;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -57,6 +77,11 @@
 
 	- (RPLayoutConstraint*) pinRightWithConstant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeRight;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeRight;
+		self.multiplier  = 1;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -69,6 +94,11 @@
 
 	- (RPLayoutConstraint*) pinRightWithConstantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeRight;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeRight;
+		self.multiplier      = 1;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -81,6 +111,11 @@
 
 	- (RPLayoutConstraint*) pinBottomWithConstant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeBottom;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeBottom;
+		self.multiplier  = 1;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -93,6 +128,11 @@
 
 	- (RPLayoutConstraint*) pinBottomWithConstantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeBottom;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeBottom;
+		self.multiplier      = 1;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -105,6 +145,11 @@
 
 	- (RPLayoutConstraint*) pinBaselineWithConstant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeBaseline;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeBaseline;
+		self.multiplier  = 1;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -117,6 +162,11 @@
 
 	- (RPLayoutConstraint*) pinBaselineWithConstantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeBaseline;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeBaseline;
+		self.multiplier      = 1;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		

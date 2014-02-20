@@ -9,6 +9,11 @@
 
 	- (RPLayoutConstraint*) pinWidth
 	{
+		self.layout      = NSLayoutAttributeWidth;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeWidth;
+		self.multiplier  = 1;
+		self.constant    = 0;
 
 		[self update];
 		
@@ -21,6 +26,11 @@
 
 	- (RPLayoutConstraint*) pinHeight
 	{
+		self.layout      = NSLayoutAttributeHeight;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeHeight;
+		self.multiplier  = 1;
+		self.constant    = 0;
 
 		[self update];
 		

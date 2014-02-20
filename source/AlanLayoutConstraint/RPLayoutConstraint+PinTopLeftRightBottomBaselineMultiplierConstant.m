@@ -11,6 +11,11 @@
 	- (RPLayoutConstraint*) pinTopWithMultiplier: (CGFloat) multiplier
                                    		constant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeTop;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeTop;
+		self.multiplier  = multiplier;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -23,8 +28,13 @@
   ********************************/
 
 	- (RPLayoutConstraint*) pinTopWithMultiplierMethod: (SEL) multiplier_method
-                                    	constant: (CGFloat) constant
+                                          	constant: (CGFloat) constant
 	{
+		self.layout            = NSLayoutAttributeTop;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeTop;
+		self.multiplierMethod  = multiplier_method;
+		self.constant          = constant;
 
 		[self update];
 		
@@ -37,8 +47,13 @@
   **************************/
 
 	- (RPLayoutConstraint*) pinTopWithMultiplier: (CGFloat) multiplier
-                                   	  constantMethod: (SEL) constant_method
+                                constantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeTop;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeTop;
+		self.multiplier      = multiplier;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -53,6 +68,11 @@
 	- (RPLayoutConstraint*) pinTopWithMultiplierMethod: (SEL) multiplier_method
                                    		constantMethod: (SEL) constant_method
 	{
+		self.layout            = NSLayoutAttributeTop;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeTop;
+		self.multiplierMethod  = multiplier_method;
+		self.constantMethod    = constant_method;
 
 		[self update];
 		
@@ -67,6 +87,11 @@
 	- (RPLayoutConstraint*) pinLeftWithMultiplier: (CGFloat) multiplier
                                    		 constant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeLeft;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeLeft;
+		self.multiplier  = multiplier;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -79,8 +104,13 @@
   *********************************/
 
 	- (RPLayoutConstraint*) pinLeftWithMultiplierMethod: (SEL) multiplier_method
-                                   		 constant: (CGFloat) constant
+                                   	      	 constant: (CGFloat) constant
 	{
+		self.layout            = NSLayoutAttributeLeft;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeLeft;
+		self.multiplierMethod  = multiplier_method;
+		self.constant          = constant;
 
 		[self update];
 		
@@ -93,8 +123,13 @@
   ***************************/
 
 	- (RPLayoutConstraint*) pinLeftWithMultiplier: (CGFloat) multiplier
-                                   		 constantMethod: (SEL) constant_method
+                                 constantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeLeft;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeLeft;
+		self.multiplier      = multiplier;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -109,6 +144,11 @@
 	- (RPLayoutConstraint*) pinLeftWithMultiplierMethod: (SEL) multiplier_method
                                    		 constantMethod: (SEL) constant_method
 	{
+		self.layout            = NSLayoutAttributeLeft;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeLeft;
+		self.multiplierMethod  = multiplier_method;
+		self.constantMethod    = constant_method;
 
 		[self update];
 		
@@ -123,6 +163,11 @@
 	- (RPLayoutConstraint*) pinRightWithMultiplier: (CGFloat) multiplier
                                    		  constant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeRight;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeRight;
+		self.multiplier  = multiplier;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -135,8 +180,13 @@
   **********************************/
 
 	- (RPLayoutConstraint*) pinRightWithMultiplierMethod: (SEL) multiplier_method
-                                   		  constant: (CGFloat) constant
+                                   		        constant: (CGFloat) constant
 	{
+		self.layout            = NSLayoutAttributeRight;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeRight;
+		self.multiplierMethod  = multiplier_method;
+		self.constant          = constant;
 
 		[self update];
 		
@@ -149,8 +199,13 @@
   ****************************/
 
 	- (RPLayoutConstraint*) pinRightWithMultiplier: (CGFloat) multiplier
-                                   		  constantMethod: (SEL) constant_method
+                                  constantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeRight;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeRight;
+		self.multiplier      = multiplier;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -165,6 +220,11 @@
 	- (RPLayoutConstraint*) pinRightWithMultiplierMethod: (SEL) multiplier_method
                                    		  constantMethod: (SEL) constant_method
 	{
+		self.layout            = NSLayoutAttributeRight;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeRight;
+		self.multiplierMethod  = multiplier_method;
+		self.constantMethod    = constant_method;
 
 		[self update];
 		
@@ -179,6 +239,11 @@
 	- (RPLayoutConstraint*) pinBottomWithMultiplier: (CGFloat) multiplier
                                     		 constant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeBottom;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeBottom;
+		self.multiplier  = multiplier;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -191,8 +256,13 @@
   ***********************************/
 
 	- (RPLayoutConstraint*) pinBottomWithMultiplierMethod: (SEL) multiplier_method
-                                    		 constant: (CGFloat) constant
+                                    		       constant: (CGFloat) constant
 	{
+		self.layout            = NSLayoutAttributeBottom;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeBottom;
+		self.multiplierMethod  = multiplier_method;
+		self.constant          = constant;
 
 		[self update];
 		
@@ -205,8 +275,13 @@
   *****************************/
 
 	- (RPLayoutConstraint*) pinBottomWithMultiplier: (CGFloat) multiplier
-                                    		 constantMethod: (SEL) constant_method
+                                   constantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeBottom;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeBottom;
+		self.multiplier      = multiplier;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -221,6 +296,11 @@
 	- (RPLayoutConstraint*) pinBottomWithMultiplierMethod: (SEL) multiplier_method
                                     		 constantMethod: (SEL) constant_method
 	{
+		self.layout            = NSLayoutAttributeBottom;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeBottom;
+		self.multiplierMethod  = multiplier_method;
+		self.constantMethod    = constant_method;
 
 		[self update];
 		
@@ -235,6 +315,11 @@
 	- (RPLayoutConstraint*) pinBaselineWithMultiplier: (CGFloat) multiplier
                                       		 constant: (CGFloat) constant
 	{
+		self.layout      = NSLayoutAttributeBaseline;
+		self.difference  = NSLayoutRelationEqual;
+		self.basis       = NSLayoutAttributeBaseline;
+		self.multiplier  = multiplier;
+		self.constant    = constant;
 
 		[self update];
 		
@@ -247,8 +332,13 @@
   *************************************/
 
 	- (RPLayoutConstraint*) pinBaselineWithMultiplierMethod: (SEL) multiplier_method
-                                      		 constant: (CGFloat) constant
+                                      		       constant: (CGFloat) constant
 	{
+		self.layout            = NSLayoutAttributeBaseline;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeBaseline;
+		self.multiplierMethod  = multiplier_method;
+		self.constant          = constant;
 
 		[self update];
 		
@@ -261,8 +351,13 @@
   *******************************/
 
 	- (RPLayoutConstraint*) pinBaselineWithMultiplier: (CGFloat) multiplier
-                                      		 constantMethod: (SEL) constant_method
+                                     constantMethod: (SEL) constant_method
 	{
+		self.layout          = NSLayoutAttributeBaseline;
+		self.difference      = NSLayoutRelationEqual;
+		self.basis           = NSLayoutAttributeBaseline;
+		self.multiplier      = multiplier;
+		self.constantMethod  = constant_method;
 
 		[self update];
 		
@@ -277,6 +372,11 @@
 	- (RPLayoutConstraint*) pinBaselineWithMultiplierMethod: (SEL) multiplier_method
                                       		 constantMethod: (SEL) constant_method
 	{
+		self.layout            = NSLayoutAttributeBaseline;
+		self.difference        = NSLayoutRelationEqual;
+		self.basis             = NSLayoutAttributeBaseline;
+		self.multiplierMethod  = multiplier_method;
+		self.constantMethod    = constant_method;
 
 		[self update];
 		

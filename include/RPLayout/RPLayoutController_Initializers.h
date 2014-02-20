@@ -5,8 +5,8 @@
 
 @interface RPLayoutController : NSObject
 
-  @property (strong) id             layoutObject;
-  @property (strong) NSDictionary*  constraints;
+  @property (strong) id                    layoutObject;
+  @property (strong) NSMutableDictionary*  constraints;
 
   /*****************
   *  initializers  *
