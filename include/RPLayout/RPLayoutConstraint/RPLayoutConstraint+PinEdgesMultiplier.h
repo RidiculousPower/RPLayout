@@ -1,7 +1,7 @@
 
-#import <RPLayout/RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutConstraint_Initializers.h>
 
-@interface RPLayoutController (PinEdgesMultiplier)
+@interface RPLayoutConstraint (PinEdgesMultiplier)
 
 	- (RPLayoutConstraint*) pinTopBottomEdgesWithMultiplier: (CGFloat) multiplier;
 

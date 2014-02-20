@@ -1,7 +1,7 @@
 
-#import <RPLayout/RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutConstraint_Initializers.h>
 
-@interface RPLayoutController (PinCenterMultiplierConstant)
+@interface RPLayoutConstraint (PinCenterMultiplierConstant)
 
 	- (RPLayoutConstraint*) pinCenterXWithMultiplier: (CGFloat)  multiplier
 	                                        constant: (CGFloat)  constant;

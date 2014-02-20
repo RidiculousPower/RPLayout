@@ -193,6 +193,9 @@
 		4DFE289518B604940075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DFE289618B604990075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DFE289718B6049D0075F757 /* RPLayoutConstraint in Headers */ = {isa = PBXBuildFile; fileRef = 4DE831B918B60479006C5A97 /* RPLayoutConstraint */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFE28BE18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; };
+		4DFE28BF18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; };
+		4DFE28C018B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,6 +284,7 @@
 		4DE8318718B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinWidthHeightMultiplier.m"; sourceTree = "<group>"; };
 		4DE8318818B6046C006C5A97 /* RPLayoutConstraint+PinWidthHeightMultiplierConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPLayoutConstraint+PinWidthHeightMultiplierConstant.m"; sourceTree = "<group>"; };
 		4DE831B918B60479006C5A97 /* RPLayoutConstraint */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RPLayoutConstraint; path = include/RPLayout/RPLayoutConstraint; sourceTree = "<group>"; };
+		4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLayoutConstraint_Initializers.h; path = include/RPLayout/RPLayoutConstraint_Initializers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +359,7 @@
 			isa = PBXGroup;
 			children = (
 				4DE8316518B4C48D006C5A97 /* RPLayoutConstraint.h */,
+				4DFE28BD18B616A60075F757 /* RPLayoutConstraint_Initializers.h */,
 				4DE8316818B4C48D006C5A97 /* RPLayoutController.h */,
 				4DE8316718B4C48D006C5A97 /* RPLayoutController_Initializers.h */,
 				4DE831B918B60479006C5A97 /* RPLayoutConstraint */,
@@ -445,6 +450,7 @@
 			files = (
 				4DE8316918B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
 				4DFE289518B604940075F757 /* RPLayoutConstraint in Headers */,
+				4DFE28BE18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */,
 				4DE8317018B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316D18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317318B4C4A8006C5A97 /* RPLayoutController in Headers */,
@@ -457,6 +463,7 @@
 			files = (
 				4DE8316A18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
 				4DFE289618B604990075F757 /* RPLayoutConstraint in Headers */,
+				4DFE28BF18B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */,
 				4DE8317118B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316E18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317418B4C4B1006C5A97 /* RPLayoutController in Headers */,
@@ -469,6 +476,7 @@
 			files = (
 				4DE8316B18B4C48D006C5A97 /* RPLayoutConstraint.h in Headers */,
 				4DFE289718B6049D0075F757 /* RPLayoutConstraint in Headers */,
+				4DFE28C018B616A60075F757 /* RPLayoutConstraint_Initializers.h in Headers */,
 				4DE8317218B4C48D006C5A97 /* RPLayoutController.h in Headers */,
 				4DE8316F18B4C48D006C5A97 /* RPLayoutController_Initializers.h in Headers */,
 				4DE8317518B4C4B9006C5A97 /* RPLayoutController in Headers */,

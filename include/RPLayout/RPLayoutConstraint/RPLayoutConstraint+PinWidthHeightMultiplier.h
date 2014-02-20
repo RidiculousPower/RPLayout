@@ -1,7 +1,7 @@
 
-#import <RPLayout/RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutConstraint_Initializers.h>
 
-@interface RPLayoutController (PinWidthHeightMultiplier)
+@interface RPLayoutConstraint (PinWidthHeightMultiplier)
 
 	- (RPLayoutConstraint*) pinWidthWithMultiplier: (CGFloat) multiplier;
 

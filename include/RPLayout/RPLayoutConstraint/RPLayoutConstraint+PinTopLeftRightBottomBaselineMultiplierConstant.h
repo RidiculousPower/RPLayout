@@ -1,7 +1,7 @@
 
-#import <RPLayout/RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutConstraint_Initializers.h>
 
-@interface RPLayoutController (PinTopLeftRightBottomBaselineMultiplierConstant)
+@interface RPLayoutConstraint (PinTopLeftRightBottomBaselineMultiplierConstant)
 
 	- (RPLayoutConstraint*) pinTopWithMultiplier: (CGFloat) multiplier
                                    		constant: (CGFloat) constant;

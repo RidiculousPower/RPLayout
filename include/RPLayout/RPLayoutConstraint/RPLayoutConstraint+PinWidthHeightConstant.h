@@ -1,7 +1,7 @@
 
-#import <RPLayout/RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutConstraint_Initializers.h>
 
-@interface RPLayoutController (PinWidthHeightConstant)
+@interface RPLayoutConstraint (PinWidthHeightConstant)
 
 	- (RPLayoutConstraint*) pinWidthWithConstant: (CGFloat) constant;
 

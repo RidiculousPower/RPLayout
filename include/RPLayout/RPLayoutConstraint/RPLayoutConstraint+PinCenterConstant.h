@@ -1,7 +1,7 @@
 
-#import <RPLayout/RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutConstraint_Initializers.h>
 
-@interface RPLayoutController (PinCenterConstant)
+@interface RPLayoutConstraint (PinCenterConstant)
 
 	- (RPLayoutConstraint*) pinCenterXWithConstant: (CGFloat) constant;
 
