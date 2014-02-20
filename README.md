@@ -68,7 +68,7 @@ The included Xcode project defines three build targets:
 The project also defines a fourth build target that aggregates the three available options. 
 
 1. Include the appropriate framework/library in your project. If you're using an Xcode project, the easiest/best way is to include the RPLayout project in yours.
-2. Import &ltRPLayout/RPLayoutController.h&gt, define a property on the object acting as container view for constrained elements, for example named "layout", ensure proper initialization.
+2. Import &lt;RPLayout/RPLayoutController.h&gt;, define a property on the object acting as container view for constrained elements, for example named "layout", ensure proper initialization.
 3. Define constraints by calling appropriate factory method on controller instance, for example: 
 
 ```
