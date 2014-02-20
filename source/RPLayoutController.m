@@ -70,7 +70,9 @@
 	                          constrainedBy: (id)         constraining_object
 	                         withIdentifier: (NSString*)  identifier
 	{
-	  RPLayoutConstraint* constraint = [self createConstraintWithIdentifier: identifier];
+    NSString* object_specific_identifier = [NSString stringWithFormat: @"%@<%p>", identifier, constrained_object ];
+  
+	  RPLayoutConstraint* constraint = [self createConstraintWithIdentifier: object_specific_identifier];
   
 	  constraint.constrainedObject  = constrained_object;
 	  constraint.constrainingObject = constraining_object;
