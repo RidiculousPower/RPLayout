@@ -41,6 +41,11 @@
   - (id) initWithLayoutObject: (id) layout_object;
 
 	- (RPLayoutConstraint*) createConstraintWithIdentifier: (NSString *) identifier;
+  - (NSString*) objectSpecificIdentifier: (NSString*)  identifier
+                               forObject: (id)         constrained_object;
+	- (RPLayoutConstraint*) constraintWithIdentifier: (NSString*)  identifier;
+	- (RPLayoutConstraint*) constraintWithIdentifier: (NSString*)  identifier
+                                         forObject: (id)         constrained_object;
 
   - (void) updateConstraintWithIdentifier: (NSString*) identifier;
   - (void) removeConstraintWithIdentifier: (NSString*) identifier;

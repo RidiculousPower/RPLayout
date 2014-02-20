@@ -70,8 +70,8 @@
 	                          constrainedBy: (id)         constraining_object
 	                         withIdentifier: (NSString*)  identifier
 	{
-    NSString* object_specific_identifier = [NSString stringWithFormat: @"%@<%p>", identifier, constrained_object ];
-  
+    NSString* object_specific_identifier = [self objectSpecificIdentifier: identifier
+                                                                forObject: constrained_object];
 	  RPLayoutConstraint* constraint = [self createConstraintWithIdentifier: object_specific_identifier];
   
 	  constraint.constrainedObject  = constrained_object;
@@ -140,6 +140,28 @@
 	******************************/
 
 	- (RPLayoutConstraint*) constraintWithIdentifier: (NSString*) identifier
+	{
+	  return [_constraints valueForKey: identifier];
+	}
+
+	/******************************
+	*  objectSpecificIdentifier:  *
+	*  forObject:                 *
+	******************************/
+
+  - (NSString*) objectSpecificIdentifier: (NSString*)  identifier
+                               forObject: (id)         constrained_object
+  {
+    return [NSString stringWithFormat: @"%@<%p>", identifier, constrained_object ];
+  }
+
+	/******************************
+	*  constraintWithIdentifier:  *
+	*  forObject:                 *
+	******************************/
+
+	- (RPLayoutConstraint*) constraintWithIdentifier: (NSString*)  identifier
+                                         forObject: (id)         constrained_object
 	{
 	  return [_constraints valueForKey: identifier];
 	}
