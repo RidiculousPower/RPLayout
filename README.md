@@ -68,33 +68,33 @@ The included Xcode project defines three build targets:
 The project also defines a fourth build target that aggregates the three available options. 
 
 1. Include the appropriate framework/library in your project. If you're using an Xcode project, the easiest/best way is to include the RPLayout project in yours.
-2. Import &lt;RPLayout/RPLayoutController.h&gt;, define a property on the object acting as container view for constrained elements, for example named "layout", ensure proper initialization.
+2. Import &lt;RPLayout/RPLayoutController.h&gt;, define a property on the object acting as container view for constrained elements, for example named "layoutController" ("layout" is not valid, as it is used by autolayout), ensure proper initialization.
 3. Define constraints by calling appropriate factory method on controller instance, for example: 
 
 ```
-[container.layout  constraintOn: contained_view 
-	              constrainedBy: container
-                 withIdentifier: @"top"
-                         layout: NSLayoutAttributeTop
-                     difference: NSLayoutRelationEqual
-                          basis: NSLayoutAttributeTop
-                     multiplier: 1.0
-                       constant: 0 ].
+[container.layoutController  constraintOn: contained_view 
+			                constrainedBy: container
+		                   withIdentifier: @"top"
+		                           layout: NSLayoutAttributeTop
+		                       difference: NSLayoutRelationEqual
+		                            basis: NSLayoutAttributeTop
+		                       multiplier: 1.0
+		                         constant: 0 ].
 ```
 
   which is equivalent to:
 
 ```
-[container.layout constraintOn: contained_view 
-                withIdentifier: @"top"
-                        layout: NSLayoutAttributeTop ] 
+[container.layoutController constraintOn: contained_view 
+                          withIdentifier: @"top"
+                                  layout: NSLayoutAttributeTop ] 
 ```
 
   or:
 
 ```
-[[container.layout constraintOn: contained_view 
-                 withIdentifier: @"top"] pinTop]
+[[container.layoutController constraintOn: contained_view 
+                           withIdentifier: @"top"] pinTop]
 ```
 
 The first example shows all 7 options that can be specified:
