@@ -43,7 +43,7 @@
 	                         withIdentifier: (NSString*)  identifier
 	{
 	  return [self constraintOn: constrained_object
-	              constrainedBy: self
+	              constrainedBy: _layoutObject
 	             withIdentifier: identifier];
 	}
 
@@ -56,7 +56,7 @@
 	                               withIdentifier: (NSString*)  identifier
 	{
 	  return [self constraintOnReturn: constrained_object_method
-	                    constrainedBy: self
+	                    constrainedBy: _layoutObject
 	                   withIdentifier: identifier];
 	}
 

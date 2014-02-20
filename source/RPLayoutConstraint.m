@@ -132,9 +132,9 @@
 {
   if ( ! _differenceMethod && _difference );
 
-  else [self invokeConstraintMethod: _differenceMethod
-                        storeReturn: & _difference
-                    errorTypestring: @"NSLayoutRelation"];
+  else if ( _differenceMethod ) [self invokeConstraintMethod: _differenceMethod
+                                                 storeReturn: & _difference
+                                             errorTypestring: @"NSLayoutRelation"];
 
   return _difference;
 }
@@ -208,9 +208,9 @@
 {
   if ( ! _constantMethod && _constant );
 
-  else [self invokeConstraintMethod: _constantMethod
-                        storeReturn: & _constant
-                    errorTypestring: @"CGFloat"];
+  else if ( _constantMethod ) [self invokeConstraintMethod: _constantMethod
+                                               storeReturn: & _constant
+                                           errorTypestring: @"CGFloat"];
   
   return _constant;
 }
