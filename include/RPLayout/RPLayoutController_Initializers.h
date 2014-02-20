@@ -1,7 +1,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import <RPLayoutConstraint.h>
+#import <RPLayout/RPLayoutConstraint.h>
 
 @interface RPLayoutController : NSObject
 

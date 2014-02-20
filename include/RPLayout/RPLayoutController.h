@@ -1,7 +1,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import <RPLayoutController_Initializers.h>
+#import <RPLayout/RPLayoutController_Initializers.h>
 
 #import <RPLayout/RPLayoutController/RPLayoutController+ConstrainingObjectLayout.h>
 #import <RPLayout/RPLayoutController/RPLayoutController+ConstrainingObjectLayoutBasis.h>
