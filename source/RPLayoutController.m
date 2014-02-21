@@ -42,13 +42,15 @@
 	- (RPLayoutConstraint*)    constraintOn: (id)         constrained_object
 	                         withIdentifier: (NSString*)  identifier
 	{
-    RPLayoutConstraint* constraint = [_constraints objectForKey: [self objectSpecificIdentifier: identifier
-                                                      forObject: constrained_object]];
+    NSString* object_specific_identifier = [self objectSpecificIdentifier: identifier
+                                                                forObject: constrained_object];
+    RPLayoutConstraint* constraint = [_constraints objectForKey: object_specific_identifier];
 
-    if ( ! constraint ) constraint = [self constraintOn: constrained_object
-                                          constrainedBy: _layoutObject
-                                         withIdentifier: identifier];
-
+    if ( ! constraint ) {
+      constraint = [self createConstraintWithIdentifier: object_specific_identifier];
+      constraint.constrainedObject = constrained_object;
+    }
+    
 	  return constraint;
 	}
 
@@ -60,9 +62,14 @@
 	- (RPLayoutConstraint*)    constraintOnReturn: (SEL)        constrained_object_method
 	                               withIdentifier: (NSString*)  identifier
 	{
-	  return [self constraintOnReturn: constrained_object_method
-	                    constrainedBy: _layoutObject
-	                   withIdentifier: identifier];
+    RPLayoutConstraint* constraint = [_constraints objectForKey: identifier];
+
+    if ( ! constraint ) {
+      constraint = [self createConstraintWithIdentifier: identifier];
+      constraint.constrainedObjectMethod = constrained_object_method;
+    }
+    
+	  return constraint;
 	}
 
 	/********************
@@ -75,11 +82,8 @@
 	                          constrainedBy: (id)         constraining_object
 	                         withIdentifier: (NSString*)  identifier
 	{
-    NSString* object_specific_identifier = [self objectSpecificIdentifier: identifier
-                                                                forObject: constrained_object];
-	  RPLayoutConstraint* constraint = [self createConstraintWithIdentifier: object_specific_identifier];
-  
-	  constraint.constrainedObject  = constrained_object;
+	  RPLayoutConstraint* constraint = [self constraintOn: constrained_object
+                                         withIdentifier: identifier ];
 	  constraint.constrainingObject = constraining_object;
 
 	  return constraint;
@@ -95,10 +99,8 @@
 	                    constrainedByReturn: (SEL)        constraining_object_method
 	                         withIdentifier: (NSString*)  identifier
 	{
-
-	  RPLayoutConstraint* constraint = [self createConstraintWithIdentifier: identifier];
-  
-	  constraint.constrainedObject        = constrained_object;
+	  RPLayoutConstraint* constraint = [self constraintOn: constrained_object
+                                         withIdentifier: identifier ];
 	  constraint.constrainingObjectMethod = constraining_object_method;
   
 	  return constraint;
@@ -114,10 +116,9 @@
 	                                constrainedBy: (id)         constraining_object
 	                               withIdentifier: (NSString*)  identifier
 	{
-	  RPLayoutConstraint* constraint = [self createConstraintWithIdentifier: identifier];
-  
-	  constraint.constrainedObjectMethod  = constrained_object_method;
-	  constraint.constrainingObject       = constraining_object;
+	  RPLayoutConstraint* constraint = [self constraintOnReturn: constrained_object_method
+                                               withIdentifier: identifier ];
+	  constraint.constrainingObject = constraining_object;
 
 	  return constraint;
 	}
@@ -132,10 +133,9 @@
 	                          constrainedByReturn: (SEL)        constraining_object_method
 	                               withIdentifier: (NSString*)  identifier
 	{
-	  RPLayoutConstraint* constraint = [self createConstraintWithIdentifier: identifier];
-
-	  constraint.constrainedObjectMethod   = constrained_object_method;
-	  constraint.constrainingObjectMethod  = constraining_object_method;
+	  RPLayoutConstraint* constraint = [self constraintOnReturn: constrained_object_method
+                                               withIdentifier: identifier ];
+	  constraint.constrainingObjectMethod = constraining_object_method;
 
 	  return constraint;
 	}

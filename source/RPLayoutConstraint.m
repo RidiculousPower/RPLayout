@@ -232,8 +232,9 @@
 {
   id layout_object = self.constraintController.layoutObject;
   
-  if ( _constraint ) [layout_object removeConstraint: _constraint];
-
+  if ( _constraint )  {
+    [layout_object removeConstraint: _constraint];
+  }
   _constraint = [NSLayoutConstraint constraintWithItem: self.constrainedObject
                                              attribute: self.layout
                                              relatedBy: self.difference
