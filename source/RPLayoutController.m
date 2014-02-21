@@ -152,7 +152,7 @@
   - (NSString*) objectSpecificIdentifier: (NSString*)  identifier
                                forObject: (id)         constrained_object
   {
-    return [NSString stringWithFormat: @"%@<%p>", identifier, constrained_object ];
+    return [NSString stringWithFormat: @"%@<%@:%p>", identifier, [constrained_object class], constrained_object ];
   }
 
 	/******************************
