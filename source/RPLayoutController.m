@@ -42,9 +42,14 @@
 	- (RPLayoutConstraint*)    constraintOn: (id)         constrained_object
 	                         withIdentifier: (NSString*)  identifier
 	{
-	  return [self constraintOn: constrained_object
-	              constrainedBy: _layoutObject
-	             withIdentifier: identifier];
+    RPLayoutConstraint* constraint = [_constraints objectForKey: [self objectSpecificIdentifier: identifier
+                                                      forObject: constrained_object]];
+
+    if ( ! constraint ) constraint = [self constraintOn: constrained_object
+                                          constrainedBy: _layoutObject
+                                         withIdentifier: identifier];
+
+	  return constraint;
 	}
 
 	/************************
