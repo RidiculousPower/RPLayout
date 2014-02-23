@@ -82,9 +82,9 @@
 {
   if ( ! _constrainingObjectMethod && _constrainingObject );
 
-  else [self invokeConstraintMethod: _constrainingObjectMethod
-                        storeReturn: (void*) _constrainingObject
-                    errorTypestring: @"id"];
+  else if ( _constrainingObjectMethod ) [self invokeConstraintMethod: _constrainingObjectMethod
+                                                         storeReturn: (void*) _constrainingObject
+                                                     errorTypestring: @"id"];
 
   return _constrainingObject;
 }
