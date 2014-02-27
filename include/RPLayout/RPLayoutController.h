@@ -3,6 +3,8 @@
 
 #import <RPLayout/RPLayoutController_Initializers.h>
 
+#import <RPLayout/RPLayoutConstraint.h>
+
 #import <RPLayout/RPLayoutController/RPLayoutController+ConstrainingObjectLayout.h>
 #import <RPLayout/RPLayoutController/RPLayoutController+ConstrainingObjectLayoutBasis.h>
 #import <RPLayout/RPLayoutController/RPLayoutController+ConstrainingObjectLayoutBasisConstant.h>
